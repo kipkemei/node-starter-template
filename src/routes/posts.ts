@@ -3,6 +3,7 @@ import express from "express";
 const Post = require("../models/Post");
 const router: express.Router = express.Router();
 
+
 router.get("/", async (req, res) => {
     Post.find({}, function(err: any, posts: any[]) {
         let postMap = {};
@@ -64,5 +65,8 @@ router.post("/", (req, res) => {
         res.status(400).json(err)
     })
 });
-//
+
+router.get("/dd", async (req, res) => {
+
+});
 module.exports = router;

@@ -6,16 +6,17 @@ const admin = require('firebase-admin');
 const cors = require('cors');
 
 const app = express();
+const digitalLeaseRoutes = require('./routes/digitalLease/Main');
 const postsRoute = require('./routes/posts');
 // app.use(express.json());
-const serviceAccount = require("./permissions.json");
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://kebsproj.firebaseio.com"
-});
-const db = admin.firestore();
+import {db} from "./init";
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static('public'));
+
+
+app.use('/posts', postsRoute);
+app.use('/lease', digitalLeaseRoutes);
 
 
 app.post('/create', (req, res) => {
@@ -104,8 +105,6 @@ app.delete('/api/delete/:item_id', (req, res) => {
     })();
 });
 
-app.use('/posts', postsRoute);
-
 interface Params {
     a: number,
     b: number
@@ -162,7 +161,7 @@ interface User {
 
 // Create new user
 app.post('/users', async (req, res) => {
-    console.log("kkkkk")
+    console.log("kkkkk");
     try {
         const user: User = {
             firstName: req.body['firstName'],

@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4e20a93-54fa-44b9-9992-a04b8c88fd3f" name="Default Changelist" comment="" />
+    <list default="true" id="a4e20a93-54fa-44b9-9992-a04b8c88fd3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="trialnode" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1b23gphJVUO2CelEyR4kWtSu2Qq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -25,9 +43,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/dist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/routes" />
     </key>
   </component>
@@ -54,11 +75,47 @@
       <option name="presentableId" value="Default" />
       <updated>1587816474580</updated>
       <workItem from="1587816479113" duration="21990000" />
-      <workItem from="1587964274718" duration="1581000" />
+      <workItem from="1587964274718" duration="4902000" />
+      <workItem from="1588001586297" duration="580000" />
+      <workItem from="1588053804622" duration="91000" />
+      <workItem from="1588068468022" duration="107000" />
+      <workItem from="1588092478183" duration="234000" />
+      <workItem from="1588682507930" duration="2274000" />
+      <workItem from="1588697168150" duration="2134000" />
+      <workItem from="1588724215679" duration="1393000" />
+      <workItem from="1588878860940" duration="95000" />
+      <workItem from="1588881394196" duration="5000" />
+      <workItem from="1589143462973" duration="2741000" />
+      <workItem from="1589197618018" duration="4319000" />
+      <workItem from="1589264586705" duration="17429000" />
+      <workItem from="1589357046846" duration="1383000" />
+      <workItem from="1589370526492" duration="1286000" />
+      <workItem from="1589380065397" duration="683000" />
+      <workItem from="1589417011005" duration="3731000" />
+      <workItem from="1589565819111" duration="599000" />
+      <workItem from="1589741091333" duration="1955000" />
+      <workItem from="1589793278299" duration="4122000" />
+      <workItem from="1590067841835" duration="1385000" />
+      <workItem from="1590229195263" duration="88000" />
+      <workItem from="1590262889830" duration="481000" />
+      <workItem from="1590294210296" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
